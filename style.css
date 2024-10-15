@@ -1,0 +1,35 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;    
+}
+
+h1, h2, h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    color: rgb(241, 40, 5);
+}
+
+.background {
+    background-color:rgb(255, 250, 205);
+    width: 100vw;
+    background-size: contain;
+}
+
+#immaginesfondo {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_yBte9A7c_gVs_8FAam3b9SZpro8r4QKTXA&s");
+    width: 100vw;
+    background-size: contain;
+}
+
+article {
+    background-color: rgba(252, 247, 94, 0.2);
+    width: 100vw;
+    text-align: center;
+    background-size: cover;
+}
+
+article:hover{
+    background-color: yellow;
+}
